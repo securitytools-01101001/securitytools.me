@@ -1,0 +1,73 @@
+ul {
+    list-style: none;
+}
+
+.menu > li {
+    float: left;
+}
+.menu button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+	background: black;
+	color: white;
+	font-size: 16px;
+	
+}
+.menu button:hover,
+.menu button:focus {
+    outline: 0;
+    text-decoration: underline;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+	z-index: 1;
+	background: black;
+	color: white;
+	
+}
+
+.submenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu button:focus + .submenu,
+.submenu:hover {
+    display: block;
+}
+
+#textfont {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+width: 500px;
+}
+#listfont {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+width: 500px;
+}
