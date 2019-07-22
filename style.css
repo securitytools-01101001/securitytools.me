@@ -9,9 +9,9 @@ ul {
     border: 0;
     background: transparent;
     cursor: pointer;
-	background: black;
+	background: #3b7042;
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 	
 }
 .menu button:hover,
@@ -70,4 +70,34 @@ font-style: normal;
 font-variant: normal;
 text-transform: none;
 width: 500px;
+text-align: left;
+padding: 5px;
+}
+
+#table-list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto; 
+}
+
+#table-list td, #table-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+#table-list td:first-child {font-weight: bold}
+
+#table-list img {margin-top: 10px;}
+
+#table-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-list tr:hover {background-color: #ddd;}
+
+#table-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3b7042;
+  color: white;
 }
